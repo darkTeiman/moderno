@@ -395,3 +395,37 @@ background-color: $grey;
   }
 }
 //end start
+//start tutorial
+
+.tutorial{
+  padding: 60px 0px 120px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    max-width: 370px;
+    width: 100%;
+  }
+
+}
+.tutorial__item {
+    &-img{
+      min-height: 270px;
+      background-repeat:no-repeat;
+      background-position:center;
+      background-size:cover;
+      
+    }
+    &-name{
+      text-align: center;
+      background-color: #f8f8f8;
+      padding: 30px 10px;
+      font-size: 24px;
+      font-weight: 700;
+      color:$bg;
+      
+    }
+  }
+
+//end tutorial
