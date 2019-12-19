@@ -86,6 +86,8 @@ body {
 .breadcrumbs {
   &__inner {
     padding: 45px 0px 40px;
+    width: 1200px;
+    overflow: hidden;
   }
 
   &__list {
